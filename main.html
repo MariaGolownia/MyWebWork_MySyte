@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Website Layout with Flexbox</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+</head>
+
+<body>
+<div class="my_flex_container1">
+<div class="my_flex_block1"> (﻿ ͡° ͜ʖ ͡°) Lie in the direction of the English </div>
+<div class="my_flex_block2"> (﻿ ͡° ͜ʖ ͡°) Crawl to the English </div>
+<div class="my_flex_block3"> (﻿ ͡° ͜ʖ ͡°) Go to the English </div>
+<div class="my_flex_block4"> (﻿ ͡° ͜ʖ ͡°) Run to the English </div>
+<div class="my_flex_block5"> (﻿ ͡° ͜ʖ ͡°) Fly to the English </div>
+<div class="my_flex_block6"> (﻿ ͡° ͜ʖ ͡°) Become the English </div>
+</div>
+
+<marquee width="1645" height="20" direction="left"  behavior="alternate" marquee scrollamount=1 truepeed bgcolor="#F9F9F9" 
+style="color:#000000; border:1px solid #dddddd">  (﻿ ͡° ͜ʖ ͡°)  Our contacts: ИПК ТЕХНОЛОГИЙ И ИНФОРМАТИЗАЦИИ БГУ (﻿ ͡° ͜ʖ ͡°) </marquee>
+
+<main class="main columns">
+
+ <section class="column main-column">
+
+    <a class="article first-article" href="#" onclick="openInformation1()">
+      <figure class="article-image is-4by3">
+        <img src="LearnEnglish.jpg" alt="">
+      </figure>
+      <div class="article-body">
+        <h2 class="article-title">
+         (﻿ ͡° ͜ʖ ͡°) About English
+        </h2>
+        <p class="article-content">
+          General information about the English language and about why you need to learn English right now
+        </p>
+        <footer class="article-info">
+          <span>Read</span>
+        </footer>
+      </div>
+    </a>
+
+    <a class="article" href="#" onclick="openInformation2()">
+      <figure class="article-image is-16by9">
+        <img src="Phrases.jpg" alt="">
+      </figure>
+      <div class="article-body">
+        <h2 class="article-title">
+         (﻿ ͡° ͜ʖ ͡°) Motivational phrases 
+        </h2>
+        <p class="article-content">
+          Motivating phrases for learning English to a conversational level and use it in daily life, for communication with other people, watching movies and so on
+        </p>
+        <footer class="article-info">
+          <span>Read</span>
+        </footer>
+      </div>
+    </a>
+
+	  <a class="article" href="#" onclick="openInformation3()">
+      <figure class="article-image is-16by9">
+        <img src="2fons.ru-7895.jpg" alt="">
+      </figure>
+      <div class="article-body">
+        <h2 class="article-title">
+        (﻿ ͡° ͜ʖ ͡°) The importance of English for programmers
+        </h2>
+        <p class="article-content">
+          Why a programmer who knows English is stronger than an expert without knowledge of the language
+        </p>
+        <footer class="article-info">
+          <span>Read</span>
+        </footer>
+      </div>
+    </a>
+</section>
+
+	<section class="column" >
+	  <a class="article2" href="#">
+	   <h2 class="caption">
+         Pass tests on knowledge of the basic words of the English language for programmers
+        </h2>
+     
+	    <div blockWithTests>
+		<form>
+		<div class="testWithResult">
+			<p id = "testButton"><input type="button" value="The list of tests to pass"></p></br>
+			<p id = "Result"><input type="text" value="Result" style="text-align:center"  ></p></br>
+		</div>
+		<div class="testWithResult">
+			<p id = "testButton1"><input type="button" value=" TEST 1: Click to start" onClick="reply_click('TEST_1')"></p></br>
+			<p id = "testWithResult1"><input id = 'TEST_1' type="text" value="Still no result" style="text-align:center"></p></br>	 
+		</div>
+		<div class="testWithResult">
+			<p id = "testButton2"><input type="button" value=" TEST 2: Click to start " onClick="reply_click('TEST_2')"></p></br>
+			<p class = "testWithResult2"><input id = 'TEST_2' type="text" value="Still no result" style="text-align:center"></p></br>				
+		</div>
+		<div class="testWithResult">
+			<p id = "testWithResultButton3"><input type="button" value=" TEST 3: Click to start  " onClick="reply_click('TEST_3')"></p></br>
+			<p class = "testWithResult3"><input id = 'TEST_3' type="text" value="Still no result" style="text-align:center"></p></br>
+		</div>
+		<div class="testWithResult">
+			<p id = "testWithResultButton4"><input type="button" value=" TEST 4: Click to start " onClick="reply_click('TEST_4')"></p></br>
+			<p class = "testWithResult4"><input id = 'TEST_4' type="text" value="Still no result" style="text-align:center"></p></br>
+			</div>
+			<div class="testWithResult">
+			<p id = "testWithResultButton5"><input type="button" value=" TEST 5: Click to start  " onClick="reply_click('TEST_5')"></p></br>
+			<p class = "testWithResult5"><input id = 'TEST_5' type="text" value="Still no result" style="text-align:center"></p></br>
+			</div>
+			<div class="testWithResult">
+			<p id = "testWithResultButton6"><input type="button" value=" TEST 6: Click to start  " onClick="reply_click('TEST_6')"></p></br>
+			<p class = "testWithResult6"><input id = 'TEST_6' type="text" value="Still no result" style="text-align:center"></p></br>
+			</div>
+			<div class="testWithResult">
+			<p id = "testWithResultButton7"><input type="button" value=" TEST 7: Click to start  " onClick="reply_click('TEST_7')"></p></br>
+			<p class = "testWithResult7"><input id = 'TEST_7' type="text" value="Still no result" style="text-align:center"></p></br>
+			</div>
+			<div class="testWithResult">
+			<p id = "testWithResultButton8"><input type="button" value=" TEST 8: Click to start  " onClick="reply_click('TEST_8')"></p></br>
+			<p class = "testWithResult8"><input id = 'TEST_8' type="text" value="Still no result" style="text-align:center"></p></br>
+			</div>
+			<div class="testWithResult">
+			<p id = "testWithResultButton9"><input type="button" value=" TEST 9: Click to start  " onClick="reply_click('TEST_9')"></p></br>
+			<p class = "testWithResult9"><input id = 'TEST_9' type="text" value="Still no result" style="text-align:center"></p></br>
+			</div>
+			<div class="testWithResult">
+			<p id = "testWithResultButton10"><input type="button" value=" TEST 10: Click to start  " onClick="reply_click('TEST_10')"></p></br>
+			<p class = "testWithResult10"><input id = 'TEST_10' type="text" value="Still no result" style="text-align:center"></p></br>
+			</div>
+			<div class="testWithResult">
+			<p id = "testWithResultButton11"><input type="button" value=" TEST 11: Click to start  " onClick="reply_click('TEST_11')"></p></br>
+			<p class = "testWithResult11"><input id = 'TEST_11' type="text" value="Still no result" style="text-align:center"></p></br>
+			</div>
+			<div class="testWithResult">
+			<p id = "testWithResultButton12"><input type="button" value=" TEST 12: Click to start  " onClick="reply_click('TEST_12')"></p></br>
+			<p class = "testWithResult12"><input id = 'TEST_12' type="text" value="Still no result" style="text-align:center"></p></br>
+			</div>
+			<div id="Reset">
+			<p ><input id = "ResetButton" type="button" value="TO RESET" size="200" onClick="reset_local()"></p></br>
+			</div>
+			
+		</form>
+		 </div>
+		
+      
+	   <div class="article-body">
+	     <h2 class="article-title">
+         (﻿ ͡° ͜ʖ ͡°) Tests
+        </h2>
+        <p class="article-content">
+          Basic words in the English language, which should be known by every programmer
+        </p>
+        <footer class="article-info">
+          <span>Go through the tests</span>
+        </footer>
+      </div>
+    </a>
+
+	
+    <a class="article3" href="#">
+      <figure class="article-image is-16by11">
+       <img src="Thank-You-Youre-All-Awesome.png" alt="">
+      </figure>
+      <div class="article-body">
+        <h2 class="article-title">
+         (﻿ ͡° ͜ʖ ͡°) The aim of education should be to teach us rather how to think, than what to think.
+        </h2>
+        <p class="article-content">
+          See you soon!
+        </p>
+        <footer class="article-info">
+          <span>The great aim of education is not knowledge but action.</span>
+        </footer>
+      </div>
+    </a>
+   </section>
+</main>
+
+	
+				
+			 	    
+ <script type="text/javascript" >
+    /*var elem = window.location.hash.replace("#","");	
+	var btn=elem.split("?")[0];
+	var val=elem.split("?")[1];*/
+	
+	var s = localStorage;
+	
+	for (var i = 0; i < s.length; i++) 
+	{ 
+		document.getElementById(s.key(i)).value = s.getItem(s.key(i)) + "%";
+		if (s.getItem(s.key(i))>60)
+		{
+			document.getElementById(s.key(i)).style.backgroundColor="lightgreen";
+		}
+		else
+		{
+			document.getElementById(s.key(i)).style.backgroundColor="pink";
+		}
+	}
+
+	
+	/*if (elem!=null && elem!="")
+	{
+		document.getElementById(btn).value = localStorage.getItem(btn);
+	}*/
+ </script>
+
+<!-- <Элемент <div> является блочным элементом и предназначен для выделения фрагмента документа с целью изменения вида содержимого. > - Тег для создания ссылки -->
+<!-- <a> - Тег для создания ссылки -->
+<!-- <figure> - Тег для группирования элементов -->
+<!-- <p> - Тег <p> является блочным элементом, всегда начинается с новой строки, абзацы текста идущие друг за другом разделяются между собой отбивкой. -->
+<!-- <main> - Элемент <main> предназначен для основного содержимого документа. Содержимое должно быть уникальным и не включать типовые блоки вроде шапки сайта, подвала, навигации, боковой панели, формы поиска и т. п. -->
+</div> 
+
+</body>

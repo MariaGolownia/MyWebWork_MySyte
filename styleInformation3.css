@@ -1,0 +1,33 @@
+html {
+  background: mediumseagreen;
+  font-family: sans-serif;
+  font-size: 14px;
+  background-image: url(Illu_Linked_Data.jpg);   <!-- Вставляем в качестве фона картинку -->
+
+}
+
+#form {
+	
+		background: url(white-wallpaper-png-4.jpg); 
+		width:1500px;
+		height:5350px;
+		margin: 3% 3%;
+		padding: 20px;
+		background-color: #E5EBFE;
+		text-align: left;
+		box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+		}
+		
+	.headForm{
+		font-style:italic;
+		font-family: ‘Monotype Corsiva’, cursive;
+		font-size: 30px;
+		box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+		
+}		
+.information{
+	padding: 20px;
+	background-color: #E5EBFE;
+	box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+		

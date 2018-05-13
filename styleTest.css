@@ -1,0 +1,137 @@
+html {
+  background: mediumseagreen;
+  font-family: sans-serif;
+  font-size: 14px;
+  background-image: url(Backgrounds_Blue_background_with_highlights_035592_.jpg);   <!-- Вставляем в качестве фона картинку -->
+
+}
+
+#form {
+	
+		background: url(white-wallpaper-png-4.jpg); 
+		width:900px;
+		height:700px;
+		margin: 5% 15%;
+		padding: 10px;
+		}
+		
+.headForm {
+	margin: 1% 1%;
+	background-color: #dbefff;
+	width:400px;
+	height:20px;
+	
+	}
+		
+.input1{
+	width:400px;
+	height:20px;
+	float: right;
+	margin-top: 0.1em; 
+    margin-bottom: 0.6em;
+	border-radius: 10px;
+	box-shadow: 0 0 7px 3px #75c1ff;
+	text-indent: 30px;
+	margin: 0px;
+	width: 400px;
+	}
+	
+#taskForm {
+	margin: 10% 1%;
+	background-color: 
+	width:400px;
+	height:20px;
+ }
+	
+#textarea1
+{
+	margin: -10% 1%;
+	width:870px;
+	height:100px;
+	resize: none;
+	text-align: center;
+	font-family: 'Tenor Sans', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 1.4em;
+	margin-bottom: 0;
+	}
+	
+#buttonCorrectAnswer{
+	margin: 0.5% 70%;
+	width: 200px;
+}
+#answerForm {
+	margin: 8%;
+	width:400px;
+	height:20px;
+	}
+	
+#answerFormInfornation {
+	margin: 1% 30%;
+	float: center;
+	width:400px;
+	height:20px;
+	
+	}
+#answerFormForUser {
+	margin: 1% 30%;
+	width:400px;
+	height:20px;
+	
+	}
+	
+#inputEnglishWord{
+
+	width:500px;
+	height:20px;
+	float: center;
+	margin-top: 0.1em; 
+    margin-bottom: 0.6em;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 2px #ff7a66;
+	text-indent: 30px;
+	text-align: center;
+	font-family: 'Tenor Sans', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 1.4em;
+	}
+	
+
+.containerOfButtons {
+   margin: 13%;
+    flex-direction: row;
+	display: flex;
+	justify-content: space-around;
+}
+#buttonStart{
+
+width: 150px;
+}
+#buttonAnswer{
+
+width:150px;
+}
+#button2{
+
+width: 150px;
+}
+
+#footerForm {
+	margin: 16% 1%;
+	width:400px;
+	height:20px;
+
+	}
+	
+#inputNumberOfQuestion{
+	width:20px;
+	height:20px;
+	}
+#inputTotalQuestions{
+	width:20px;
+	height:20px;
+}
+
+		
